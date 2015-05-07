@@ -1,7 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  7 MAY 2015 19:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  7 MAY 2015 20:17
 entering extended mode
-**C.tex
-(C:\Users\Thomas\Dropbox\Algoritmer&datastrukturer\C.tex
+**AD_assignment_1.tex
+
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\AD_assignment_1.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -514,7 +515,8 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \tab@size=\count112
 \listing@line=\count113
 )
-(C:\Users\Thomas\Dropbox\Algoritmer&datastrukturer\C.aux)
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\AD_assignment_1.aux
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
@@ -528,8 +530,7 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Try loading font information for U+msa on input line 19.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 19.
@@ -552,7 +553,9 @@ Package xypdf Info: Line width: 0.47998pt on input line 19.
 \MPnumerator=\count118
 \makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks32
-) (C:\Users\Thomas\Dropbox\Algoritmer&datastrukturer\C.toc)
+)
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\AD_assignment_1.toc
+)
 \tf@toc=\write4
  [1
 
@@ -580,38 +583,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 73.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [3 <C:/Users/Thomas/Dropbox/Algoritmer&datastrukturer/include/Tree_diagram.pd
-f>]
-(C:\Users\Thomas\Dropbox\Algoritmer&datastrukturer\C.bbl [4]) [5]
-(C:\Users\Thomas\Dropbox\Algoritmer&datastrukturer\C.aux) ) 
+) [3 <C:/Users/Thomas/Documents/GitHub/Algorithms-datastructures/include/Tree_d
+iagram.pdf>]
+
+LaTeX Warning: Citation `introduction-algorithms' on page 4 undefined on input 
+line 91.
+
+
+LaTeX Warning: Citation `introduction-algorithms' on page 4 undefined on input 
+line 91.
+
+
+LaTeX Warning: Citation `introduction-algorithms' on page 4 undefined on input 
+line 92.
+
+No file AD_assignment_1.bbl.
+[4]
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\AD_assignment_1.aux
+)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5672 strings out of 493921
- 69396 string characters out of 3144873
- 170598 words of memory out of 3000000
- 8838 multiletter control sequences out of 15000+200000
- 17955 words of font info for 60 fonts, out of 3000000 for 9000
+ 5668 strings out of 493921
+ 69513 string characters out of 3144873
+ 170594 words of memory out of 3000000
+ 8837 multiletter control sequences out of 15000+200000
+ 17271 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,7n,43p,3232b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Thomas\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\User
-s\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.p
-k> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecbx1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Thomas\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb>
-Output written on C.pdf (5 pages, 235654 bytes).
+ 27i,7n,43p,3246b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ectt1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Thomas\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Thomas\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on AD_assignment_1.pdf (4 pages, 224435 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
+ 246 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

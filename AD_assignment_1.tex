@@ -14,7 +14,7 @@
 
 
 \title{Algorithms and Datastructures assignment 1}
-\author{Thomas Broby Nielsen (xlq119)\\ Tobias Overgaard (vqg954)\\ Christian (zvc154)}
+\author{Thomas Broby Nielsen (xlq119)\\ Tobias Overgaard (vqg954)\\ Christian Buchter (zvc154)}
 
 \begin{document}
 \maketitle
@@ -34,7 +34,7 @@ Thus $p(n)=\Theta (n^3)$\\
 \\
 2)
 \\
-$p(n)=8p(n/4)+n^{3}\\$
+$p(n)=8p(n/4)+n^{3}$\\
 $a=8$, $b=4$, $f(n)=n^{3}$ and $n^{log_{b}a}=n^{log_{4}8}=n^{3/2}$\\
 since $n^{log_48}=n^3$ some constant $\epsilon > 0$ exists so $n^3=\Omega(n^{log_4(8+\epsilon)})$  is true.\\ We use case 3 of the master theorem\\
 And $8 \frac {n^3}{4^3} \leq cn^3$ and c < 1 =\\
@@ -56,6 +56,38 @@ Thus $n log_2 n = O(n^{log_910-\epsilon})$ is true for a small enough $\epsilon$
 $p(n)=\Theta (n^{log_910}).$
 \newpage
 \section{task 2}
+we use the substitution method to find the runtimes of the two pricing schemes:\\
+1)\\
+given:
+\begin{equation*}
+p(n) = p(\frac{n}{2}) p(\frac{n}{3}) + n)
+\end{equation*}
+we make the guess $p(n)= \Theta(n)$\\
+we start by proving $p(n)= O(n)$:
+\begin{equation*}
+p(n) \leq \frac{cn}{2} + \frac{cn}{3} + n \\
+= \frac{5cn}{6}+n \leq cn \quad \text{for }c \geq 6
+\end{equation*}
+for $c < 6$ the inequalities can be flipped, and we have $p(n) = \Omega(n)$\\
+thus we have proven $p(n) = \Theta(n)$ \\\
+2)\\
+given: 
+\begin{equation*}
+p(n) = \sqrt{n} * p(\sqrt{n}) +\sqrt{n}
+\end{equation*}
+we make the guess $p(n)= \Theta(n)$\\
+we start by proving $p(n)= \Omega(n)$:
+\begin{equation*}
+p(n) \geq \sqrt{n} * c\sqrt{n} +\sqrt{n}
+= cn +\sqrt{n} \geq cn
+\end{equation*}
+we now assume $p(n) \geq cn-2$, which makes $p(n) = O(n)$ and prove this.\\
+\begin{equation*}
+p(n) \leq \sqrt{n} * (c\sqrt{n}-2) +\sqrt{n}
+= cn -2\sqrt{n} +\sqrt{n} = cn -\sqrt{n} \leq cn - 2 \quad for n \geq 4
+\end{equation*}
+thus we have proven $p(n) = \Theta(n)$ \\\
+\newpage
 From the function given to us in this task ($p(n) = p(\frac{n}{2}) p(\frac{n}{3}) + n$), we have constructed the following tree to show the growth of the function.
 \begin{figure}[!h]
  	\begin{center}
@@ -65,8 +97,7 @@ From the function given to us in this task ($p(n) = p(\frac{n}{2}) p(\frac{n}{3}
 	\label{Sekvens-user}
 \end{figure}
 From this we have made the edjucated guess that our recursive function $p(n) = p(\frac{n}{2}) p(\frac{n}{3}) + n $ has the running time of $O(n \cdot lgn)$.
-
-
+\newpage
 \section{Task 3}
 Bellow we have written the pseudo-code for Introsort. The functions Heapsort, Insertionsort, and Randomized-partition is from CLRS\\
 

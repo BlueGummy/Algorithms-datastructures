@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  14 MAY 2015 21:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.10)  14 MAY 2015 22:53
 entering extended mode
 **AD_assignment_2.tex
 
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.tex
+(C:\Users\Christian\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_
+assignment_2.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +15,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+(E:\Latex\MikTex\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+(E:\Latex\MikTex\tex\latex\base\size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,24 +32,24 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(E:\Latex\MikTex\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(E:\Latex\MikTex\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(E:\Latex\MikTex\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(E:\Latex\MikTex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(E:\Latex\MikTex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -90,19 +90,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(E:\Latex\MikTex\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(E:\Latex\MikTex\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(E:\Latex\MikTex\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -252,7 +252,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(E:\Latex\MikTex\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -283,7 +283,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(E:\Latex\MikTex\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -307,43 +307,42 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(E:\Latex\MikTex\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(E:\Latex\MikTex\tex\latex\base\t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+(E:\Latex\MikTex\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+(E:\Latex\MikTex\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-danish\danish.ldf"
+(E:\Latex\MikTex\tex\generic\babel\danish.ldf
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+(E:\Latex\MikTex\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count99
 \U@D=\dimen112
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(E:\Latex\MikTex\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks21
 \verbatim@line=\toks22
 \verbatim@in@stream=\read1
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xy.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xy.tex" Bootstrap'ing:
-catcodes, docmode,
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyidioms.tex")
+(E:\Latex\MikTex\tex\generic\xypic\xy.sty
+(E:\Latex\MikTex\tex\generic\xypic\xy.tex Bootstrap'ing: catcodes, docmode,
+(E:\Latex\MikTex\tex\generic\xypic\xyrecat.tex)
+(E:\Latex\MikTex\tex\generic\xypic\xyidioms.tex)
 
  Xy-pic version 3.8.9 <2013/10/06>
  Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
@@ -398,15 +397,15 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(E:\Latex\MikTex\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package: xy 2013/10/06 Xy-pic version 3.8.9
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyall.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xyall.tex
  Xy-pic option: All features v.3.8
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count104
 \crvpts@=\toks27
@@ -418,21 +417,21 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  circles,
 \L@=\dimen145
  loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xycmtip.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xycmtip.tex
  Xy-pic option: Computer Modern tip extension v.3.7
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xytips.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xytips.tex
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyline.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xyline.tex
  Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen146
  loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyrotate.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xycolor.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xycolor.tex
  Xy-pic option: Colour extension v.3.11 loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
 \Row=\count105
 \Col=\count106
@@ -442,56 +441,56 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 \qcount@@=\count108
 \matrixsize@=\count109
  loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xygraph.tex"
+(E:\Latex\MikTex\tex\generic\xypic\xygraph.tex
  Xy-pic option: Graph feature v.3.11 loaded) loaded)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xypdf.tex"
- Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xypdf-co.tex" loaded)
+(E:\Latex\MikTex\tex\generic\xypic\xypdf.tex  Xy-pic option: PDF driver v.1.7
+Xy-pic pdf driver: `color' extension support
+(E:\Latex\MikTex\tex\generic\xypic\xypdf-co.tex loaded)
 Xy-pic pdf driver: `curve' extension support
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xypdf-cu.tex" loaded)
+(E:\Latex\MikTex\tex\generic\xypic\xypdf-cu.tex loaded)
 Xy-pic pdf driver: `frame' extension support
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xypdf-fr.tex" loaded)
+(E:\Latex\MikTex\tex\generic\xypic\xypdf-fr.tex loaded)
 Xy-pic pdf driver: `line' extension support
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xypdf-li.tex" loaded)
+(E:\Latex\MikTex\tex\generic\xypic\xypdf-li.tex loaded)
 Xy-pic pdf driver: `rotate' extension support
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xypdf-ro.tex" loaded)
-loaded)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(E:\Latex\MikTex\tex\generic\xypic\xypdf-ro.tex loaded) loaded))
+(E:\Latex\MikTex\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(E:\Latex\MikTex\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(E:\Latex\MikTex\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(E:\Latex\MikTex\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks30
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(E:\Latex\MikTex\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(E:\Latex\MikTex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(E:\Latex\MikTex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(E:\Latex\MikTex\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(E:\Latex\MikTex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(E:\Latex\MikTex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count110
@@ -499,7 +498,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(E:\Latex\MikTex\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -510,14 +509,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\moreverb\moreverb.sty"
+(E:\Latex\MikTex\tex\latex\moreverb\moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \tab@position=\count111
 \tab@size=\count112
 \listing@line=\count113
 )
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.aux)
+(C:\Users\Christian\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_
+assignment_2.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
@@ -531,16 +530,17 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Try loading font information for U+msa on input line 19.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (E:\Latex\MikTex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 19.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+
+(E:\Latex\MikTex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package xypdf Info: Line width: 0.47998pt on input line 19.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(E:\Latex\MikTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
 \scratchdimen=\dimen149
@@ -554,8 +554,8 @@ Package xypdf Info: Line width: 0.47998pt on input line 19.
 \makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks32
 )
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.toc)
+(C:\Users\Christian\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_
+assignment_2.toc)
 \tf@toc=\write4
  [1
 
@@ -575,7 +575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
  []
 
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 50.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+(E:\Latex\MikTex\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Overfull \hbox (5.10352pt too wide) in paragraph at lines 61--61
@@ -596,35 +596,89 @@ ized-Be-erComp,
  []
 
 [3]
-No file AD_assignment_2.bbl.
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+(E:\Latex\MikTex\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
 [4]
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+No file AD_assignment_2.bbl.
+[5]
+(C:\Users\Christian\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_
+assignment_2.aux) ) 
 Here is how much of TeX's memory you used:
- 5661 strings out of 493921
- 69470 string characters out of 3144873
+ 5677 strings out of 493921
+ 67461 string characters out of 3152081
  171650 words of memory out of 3000000
- 8832 multiletter control sequences out of 15000+200000
+ 8846 multiletter control sequences out of 15000+200000
  17955 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,43p,3246b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecti1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Thomas\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Thomas\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Use
-rs\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.
-pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm2074.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on AD_assignment_2.pdf (4 pages, 117397 bytes).
+ <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Christian\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Christi
+an\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:
+\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+bx1728.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm1440.pk> <C:\Users\Christian\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm2074.pk><E:/Latex/MikTex/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><E:/Latex/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E
+:/Latex/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Latex/MikTex/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><E:/Latex/MikTex/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><E:/Latex/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on AD_assignment_2.pdf (5 pages, 135991 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

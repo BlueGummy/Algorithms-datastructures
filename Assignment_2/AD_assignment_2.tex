@@ -46,8 +46,7 @@ To further prove the correctness of our formula, we have see if the formula hold
 
 
 \section{Task 3}
-Bellow we have written the pseudo-code for MemoizedBeerComp using memoization DP\\
-
+Bellow we have written the pseudo-code for MemoizedBeerComp using the DP-method\\
 \begin{verbatim}
 MemoizedBeerComp(c, i, beerList, array)
 1 if c <= 0 or i==0
@@ -62,7 +61,24 @@ MemoizedBeerComp(c, i, beerList, array)
                       MemoizedBeerComp(c - beerList[i], i - 1, beerLis, array)
 10       return array(c, i)
 \end{verbatim}
-
+Because we coulden't get our heads around to calculate the running time in task 4 for our top-down implementation of memoizedBeerComp(until after we talked with a TA), we went ahead and also implemented our formula as a botto\-up method as seen below.
+\begin{verbatim}
+Bottom-Up-Beers (P,c) = 
+1   let r[1,2, ... ,c][0,1,2,...,P.length] be a new Matrix
+2   for j=1 to c{
+3      r[j][0] = 0;
+4      for k = 1 to P.length {
+5         q = 0;
+6         if (P[k] == j) {q+=1}
+7         q += r[j][k-1];
+8         if (j-P[k] > 0) {
+9           q += r[j-P[k]][k-1];
+10         }
+11         r[j][k] = q;	
+12      }
+13  }
+14	return r[c][P.length];
+\end{verbatim}
 \section{Task 4}
 
 \bibliographystyle{plain}

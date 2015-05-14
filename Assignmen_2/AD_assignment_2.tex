@@ -32,30 +32,38 @@ N(c-p_i,i-1)+N(c,i-1) &\mbox{otherwise}
 \end{array} \right.
 $$
 
-\newpage
 \section{task 2}
-In order to prove the correctness of our formula, for calculating the amount of unique combinations of unique beers you can buy with a specified amount of money, we will first prove the correctness of the initialization of our formula. This we have summarized into showing that for a given value of c and i, for example, $1 \leq c$ and $1 \leq i$ that our base case holds true for the first iteration. 
+In order to prove the correctness of our formula, for calculating the amount of unique combinations of unique beers you can buy with a specified amount of money, we will have to tjeck the three properties of a correct formula.
+ \\ \\
+First we will first prove the correctness of the initialization of our formula.
+\\
+This we have summarized into showing that for a given value of $1 \leq c$ and $1 \leq i$ that our base case holds true for the first iteration.
+For the example above, it is trivial to see that if $N(1,1)$ then the base cases for the formula, won't be triggered. From this we can see that initialization will hold for any value of $1 \leq c$ and $1 \leq i$.
+\\  \\
+The second property that our formula must hold, is that if the invariant before an iteration is true, must remain true after the iteration. To show that our 
 
-\newpage
+To further prove the correctness of our formula, we have see if the formula holds true before and after an iteration. 
+
+
 \section{Task 3}
 Bellow we have written the pseudo-code for MemoizedBeerComp using memoization DP\\
 
 \begin{verbatim}
-MemoizedBeerComp(c, i, P, R)
+MemoizedBeerComp(c, i, beerList, array)
 1 if c <= 0 or i==0
 2    return 0
-3 if R(c,i) > -1
-4    return R(c,i)
-5 if c-P(i)==0
-6     R(c,i)=1+ MemoizedBeerComp(c,i-1)
-7     return R(c,i)
-8  else
-9     R(c,i)=MemoizedBeerComp(c,i-1, P, R)+MemoizedBeerComp(c-P[i], i-1, P, R)
-10   return R(c,i)
+3 if array(c, i) > -1
+4    return array(c, i)
+5 if c - beerList[i] == 0
+6     array(c,i) = 1 + MemoizedBeerComp(c, i - 1)
+7     return array(c,i)
+8   else
+9        array(c,i) = MemoizedBeerComp(c, i - 1, beerList, array) +
+                      MemoizedBeerComp(c - beerList[i], i - 1, beerLis, array)
+10       return array(c, i)
 \end{verbatim}
+
 \section{Task 4}
-
-
 
 \bibliographystyle{plain}
 \bibliography{references}

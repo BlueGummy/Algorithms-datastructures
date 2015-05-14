@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} % flere matematikkommandoer
+\usepackage[utf8]{inputenc} % æøå
+\usepackage[T1]{fontenc} % mere æøå
+\usepackage[danish]{babel} % orddeling
+\usepackage{verbatim} % så man kan skrive ren tekst
+\usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{moreverb}
+
+
+\title{Algorithms and Datastructures assignment 1}
+\author{Thomas Broby Nielsen (xlq119)\\ Tobias Overgaard (vqg954)\\ Christian Buchter (zvc154)}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+\section{Task 1}
+$$
+|N(c,i)| = \left\{ \begin{array}{rl}
+0 &\mbox{ if $c \leq 0$} \\
+0 &\mbox{ if $i=0$} \\
+1+N(c,i-1) &\mbox{ if $p_i=c$}\\
+N(c-p_i,i-1)+N(c,i-1) &\mbox{otherwise}
+\end{array} \right.
+$$
+
+\newpage
+\section{task 2}
+
+\newpage
+\section{Task 3}
+Bellow we have written the pseudo-code for MemoizedBeerComp using memoization DP\\
+
+\begin{verbatim}
+MemoizedBeerComp(c, i, P, R)
+1 if c <= 0 or i==0
+2    return 0
+3 if R(c,i) > -1
+4    return R(c,i)
+5 if c-P(i)==0
+6     R(c,i)=1+ MemoizedBeerComp(c,i-1)
+7     return R(c,i)
+8  else
+9     R(c,i)=MemoizedBeerComp(c,i-1, P, R)+MemoizedBeerComp(c-P[i], i-1, P, R)
+10   return R(c,i)
+\end{verbatim}
+\section{Task 4}
+
+
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

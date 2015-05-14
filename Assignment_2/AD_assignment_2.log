@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  14 MAY 2015 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  14 MAY 2015 21:17
 entering extended mode
 **AD_assignment_2.tex
 
@@ -569,7 +569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--44
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
@@ -577,30 +577,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 50.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [2]
-Overfull \hbox (23.624pt too wide) in paragraph at lines 60--60
-[]\T1/cmtt/m/n/12 9        array(c,i) = MemoizedBeerComp(c, i - 1, beerList, ar
-ray) +[] 
+)
+Overfull \hbox (5.10352pt too wide) in paragraph at lines 61--61
+[]            \T1/cmtt/m/n/12 MemoizedBeerComp(c, i - 1, beerList, holderMatrix
+) +[] 
  []
 
 
-Overfull \hbox (91.53241pt too wide) in paragraph at lines 61--61
-[]                      \T1/cmtt/m/n/12 MemoizedBeerComp(c - beerList[i], i - 1
-, beerLis, array)[] 
+Overfull \hbox (73.01193pt too wide) in paragraph at lines 62--62
+[]            \T1/cmtt/m/n/12 MemoizedBeerComp(c - beerList[i], i - 1, beerLis,
+ holderMatrix)[] 
  []
 
-No file AD_assignment_2.bbl.
+
+Overfull \hbox (3.75664pt too wide) in paragraph at lines 65--66
+\T1/cmr/m/n/12 erComp for task 4, with our top-down im-ple-men-ta-tion of me-mo
+ized-Be-erComp,
+ []
+
 [3]
+No file AD_assignment_2.bbl.
+[4]
 (C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
 ignment_2.aux) ) 
 Here is how much of TeX's memory you used:
  5659 strings out of 493921
  69448 string characters out of 3144873
- 170650 words of memory out of 3000000
+ 171650 words of memory out of 3000000
  8831 multiletter control sequences out of 15000+200000
  17271 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,43p,3246b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,43p,3246b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
 ppen\ec\dpi600\ectt1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.
@@ -613,9 +620,9 @@ pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on AD_assignment_2.pdf (3 pages, 110628 bytes).
+Output written on AD_assignment_2.pdf (4 pages, 112232 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
+ 241 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -44,24 +44,25 @@ The second property that our formula must hold, is that if the invariant before 
 
 To further prove the correctness of our formula, we have see if the formula holds true before and after an iteration. 
 
-
+\newpage
 \section{Task 3}
 Bellow we have written the pseudo-code for MemoizedBeerComp using the DP-method\\
 \begin{verbatim}
-MemoizedBeerComp(c, i, beerList, array)
+MemoizedBeerComp(c, i, beerList, holderMatrix)
 1 if c <= 0 or i==0
 2    return 0
 3 if array(c, i) > -1
-4    return array(c, i)
+4    return holderMatrix(c, i)
 5 if c - beerList[i] == 0
 6     array(c,i) = 1 + MemoizedBeerComp(c, i - 1)
-7     return array(c,i)
+7     return holderMatrix(c,i)
 8   else
-9        array(c,i) = MemoizedBeerComp(c, i - 1, beerList, array) +
-                      MemoizedBeerComp(c - beerList[i], i - 1, beerLis, array)
-10       return array(c, i)
+9        holderMatrix(c,i) =
+            MemoizedBeerComp(c, i - 1, beerList, holderMatrix) +
+            MemoizedBeerComp(c - beerList[i], i - 1, beerLis, holderMatrix)
+10       return holderMatrix(c, i)
 \end{verbatim}
-Because we coulden't get our heads around to calculate the running time in task 4 for our top-down implementation of memoizedBeerComp(until after we talked with a TA), we went ahead and also implemented our formula as a botto\-up method as seen below.
+Since we weren't able to calculate the running time for our memoizedBeerComp for task 4, with our top-down implementation of memoizedBeerComp, we decided to also implement our original formula as a bottom-up method instead, as seen below.
 \begin{verbatim}
 Bottom-Up-Beers (P,c) = 
 1   let r[1,2, ... ,c][0,1,2,...,P.length] be a new Matrix
@@ -70,16 +71,18 @@ Bottom-Up-Beers (P,c) =
 4      for k = 1 to P.length {
 5         q = 0;
 6         if (P[k] == j) {q+=1}
-7         q += r[j][k-1];
+7            q += r[j][k-1];
 8         if (j-P[k] > 0) {
-9           q += r[j-P[k]][k-1];
+9            q += r[j-P[k]][k-1];
 10         }
-11         r[j][k] = q;	
-12      }
+11     r[j][k] = q;	
+12     }
 13  }
 14	return r[c][P.length];
 \end{verbatim}
+NOTE: we later figured out how to calculate the running time for the top-down method implementation after talking with a TA, but we decided to keep both of the implementations.
 \section{Task 4}
+
 
 \bibliographystyle{plain}
 \bibliography{references}

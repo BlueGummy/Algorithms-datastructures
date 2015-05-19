@@ -24,8 +24,23 @@
 
 \pagebreak
 \section{Task 1}
-
-
+\begin{verbatim}
+possible(p, b, n)
+1 r=0
+2 for m=1 to p.length
+3      if m=p.length
+4         if b[m] > n+(m-(m-1))
+5            r=r+(b[m]-(n+(m-(m-1))))
+6         if b[m] < n
+7            r=r-(n-(b[m]+(m-(m-1))))
+8         else r=r+0
+9      if b[m] > n+((m+1)-m)
+10         r=r+(b[m]-(n+((m+1)-m)))
+11      if b[m]< n
+12         r=r-(n-(b[m]+((m+1)-m)))
+13      else r=r+0
+14 return r
+\end{verbatim}
 \section{task 2}
 
 \newpage

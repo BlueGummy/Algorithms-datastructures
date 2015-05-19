@@ -1,0 +1,4 @@
+\select@language {danish}
+\contentsline {section}{\numberline {1}Task 1}{2}
+\contentsline {section}{\numberline {2}task 2}{2}
+\contentsline {section}{\numberline {3}Task 3}{3}

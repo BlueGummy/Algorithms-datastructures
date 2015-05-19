@@ -1,9 +1,9 @@
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  19 MAY 2015 17:29
 entering extended mode
-**AD_assignment_2.tex
+**AD_assignment_3.tex
 
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.tex
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_3\AD_ass
+ignment_3.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -540,8 +540,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks31
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.aux)
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_3\AD_ass
+ignment_3.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -613,126 +613,37 @@ Package xypdf Info: Line width: 0.47998pt on input line 20.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.toc)
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_3\AD_ass
+ignment_3.toc)
 \tf@toc=\write4
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 37--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--45
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 51.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (24.83966pt too wide) in paragraph at lines 63--63
-[]            \T1/cmtt/m/n/12 MemoizedBeerComp(c - beerList[i], i - 1, beerLis,
- holderMatrix)[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-[3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.bbl
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_3\AD_ass
+ignment_3.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [4] [5]
-(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
-ignment_2.aux) ) 
+) [3]
+(C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_3\AD_ass
+ignment_3.aux) ) 
 Here is how much of TeX's memory you used:
- 6161 strings out of 493921
- 77138 string characters out of 3144873
- 188018 words of memory out of 3000000
- 9314 multiletter control sequences out of 15000+200000
- 17955 words of font info for 60 fonts, out of 3000000 for 9000
+ 6123 strings out of 493921
+ 76208 string characters out of 3144873
+ 183018 words of memory out of 3000000
+ 9284 multiletter control sequences out of 15000+200000
+ 16958 words of font info for 58 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,43p,3246b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,43p,3246b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecti1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Thomas\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Thomas\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Use
-rs\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.
-pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm2074.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on AD_assignment_2.pdf (5 pages, 137518 bytes).
+ppen\ec\dpi600\ecrm1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Thomas\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Thomas\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Thomas\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk>
+Output written on AD_assignment_3.pdf (3 pages, 35687 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

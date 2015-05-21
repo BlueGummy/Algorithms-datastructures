@@ -34,17 +34,17 @@ N(c-p_i,i-1)+N(c,i-1) &\mbox{otherwise}
 $$
 
 \section{task 2}
-In order to prove the correctness of our formula, for calculating the amount of unique combinations of unique beers you can buy with a specified amount of money, we will have to tjeck the three properties of a correct formula.
- \\ \\
-First we will first prove the correctness of the initialization of our formula.
+In order to prove the correctness of our formula, for calculating the amount of unique combinations of unique beers you can buy with a specified amount of money, we have to prove it by mathematical induction. To properly prove the correctness of our algorithm, we have first have to establish a basis case and then do an inductive step.
 \\
-This we have summarized into showing that for a given value of $1 \leq c$ and $1 \leq i$ that our base case holds true for the first iteration.
-For the example above, it is trivial to see that if $N(1,1)$ then the base cases for the formula, won't be triggered. From this we can see that initialization will hold for any value of $1 \leq c$ and $1 \leq i$.
-\\  \\
-The second property that our formula must hold, is that if the invariant before an iteration is true, must remain true after the iteration. To show that our 
+I will first establish the correctness of the basis case in out algorithm. To Illustrate this, if we set the amount of money the "person\footnote{student}" has to spend on beers to $c \leq 0$ in $N(c,i)$, the formula should return 0, which it does. This makes sense since the person would have no money to buy any combination of beers. The second base case in our formula is, if there are no beers available for purchase $i=0$, then the formela should return 0 aswell. This would makes sence since you cannot sell something you do not have\footnote{Unless you're a banker}.
+\\
+The second part of the inductive proof is to perform an inductive step. To do this we have to show that our algorithm holds true for any value of c in $N(c,i)$ i that are larger or equal to 1.
+
+
+
+In order The second property that our formula must hold, is that if the invariant before an iteration is true, must remain true after the iteration. To show that our 
 
 To further prove the correctness of our formula, we have see if the formula holds true before and after an iteration. 
-
 \newpage
 \section{Task 3}
 Bellow we have written the pseudo-code for MemoizedBeerComp using the DP-method\\

@@ -78,9 +78,9 @@ Bottom-Up-Beers (P,c) =
 \end{verbatim}
 NOTE: we later figured out how to calculate the running time for the top-down method implementation after talking with a TA, but we decided to keep both of the implementations.
 \section{Task 4}
-For this task we went ahead and analysed the bottom-up implementation, Bottom-Up-Beers. From the nested for-loop in our implementation, first seen at line 2 and then again inside the first for-loop at line 4, we can see that our algorithm first checks through all possible combinations of k > p.lenght where j > c first tiebacks though every we can see that our algorithm first fores though anywe can see that our algorithm first Because of the nested forloop, first at line 2 in our Bottum-Up-Beers nature in our implementation, it is easy to see that the running time for our implementation is $O(cn)$ where \textit{n = p.length} is the amount of individual beers. Therefore our running time, that is based off of the upper bound, is equal to $\theta(cn)$.\\
+For this task we went ahead and analysed the bottom-up implementation, Bottom-Up-Beers. From the nested for-loop in our implementation, first seen at line 2 and then again inside the first for-loop at line 4, we can see that our algorithm first checks through all possible combinations of $k \geq p.lenght$ for some $j \geq c$. From this it is we can see that the upper and lower bound for our running time is $O(cn)$ and $\omega(cn)$. For clarity n is equal to p.length with is the amount of individual beers there are avaliable and c is the amount of money there is to spend. Since our upper and lower bound is $c \cdot n$, our running time is therefore $T(n) = \theta(cn)$.\\
 
-Since our matrix has to be stored for the algorithm to access it our memory usage is ||R|| = cn.\\
+Since our implementation stores every single combination of $c \cdot i$, we can visualize that our implementation stores it's asnwers as a matrix, where the amount of colums and rows of the matrix are determined by the size of "c" and "i". Therefore since our matrix has to be stored for the algorithm to access it our memory usage is ||R|| = cn.\\
 
 We prove the correctness by using the loop invariants:
 \begin{itemize}

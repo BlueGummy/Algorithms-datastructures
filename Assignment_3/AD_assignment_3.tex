@@ -31,18 +31,19 @@ possible(p, b, n)
 3      if m=p.length
 4         if r >= 0 return true
 5         else return false
-6      if b[m] > n+((m+1)-m)
-7         r=r+(b[m]-(n+((m+1)-m)))
-8      if b[m]< n
-9         r=r-(n-(b[m]+((m+1)-m)))
+6      if b[m]+r > n+((p[m+1]-p[m])*2)
+7         r=r+(b[m]-(n+((p[m+1]-p[m])*2))
+8      if b[m]+r < n
+9         r=r-(n-(b[m]+(p[m+1]-p[m])*2))
 10      else r=r+0
 
 \end{verbatim}
 \newpage
 \section{task 2}
-Problemet har optimal substruktur da i kun skal finde possiblity, så er hvilken som helst løsning hvor hver bar får  $\bar{b}$ øl en optimal løsning.\\\\
-Vores algortime har Greedy choice Property.\\
-Det grådige valg går ud på at den første bar skal have præcist  $\bar{b}$ øl. Da distancen mellem barerne er linær koster det ikke ekstra øl at stoppe på alle barerne. Ved den første bar er der to valgmuligheder. Hvis $b_1$ <  $\bar{b}$ så skal der sendes  $\bar{b}-$$b_1$+($p_2-p_1$) øl til bar 1 fra bar 2. Hvis $b_1 >  \bar{b}$ så kan den optimale løsning ikke sende mere end $b_1- \bar{b}$.
+
+Vores algoritme har Greedy choice Property.\\
+Det grådige valg går ud på at den første bar skal have præcist  $\bar{b}$ øl. Da distancen mellem barerne er linær, koster det ikke ekstra øl at stoppe på alle barerne. Ved den første bar er der to valgmuligheder. Hvis $b_1$ <  $\bar{b}$ så skal der sendes  $\bar{b}-$$b_1$+($p_2-p_1$)*2 øl til bar 1 fra bar 2. Hvis $b_1 >  \bar{b}$ så kan den optimale løsning ikke sende mere end $b_1- \bar{b}$. Det grådige valg virker fordi at hvis Der skal kunne være mindst $\bar{b}$ øl på hver bar, skal der være mindst $\bar{b}$ øl på denne bar. Dette gælder for alle barrerne. Derfor kan vi se på barrerne fra en ende af og løse problemet et subproblem af gangen. og derefter kigge på resten\\\\
+Problemet går ud på at find ud af om det er muligt at få $\bar{b}$ øl i hver bar. Dette kan løses ved at finde ud af om det er muligt at have nok øl i en bar + resten. Den grådige løsning løser dette problem på en bar. Dette udviser optimal delstruktur da det grådige valg udføres på hver bar, hvilket giver en optimal løsning for det originale problem.
 
 \newpage
 \section{Task 3}
@@ -51,11 +52,14 @@ maxBeer(p, b)
 1 l=0
 2 h=max(b)
 2 while l < h
-3      m = celing((l+h)/2)
+3      m = ceiling((l+h)/2)
 4       if possible(b,p,m)
 5          l=m
 6       else h=m-1
+7 return h
 \end{verbatim}
-Denne algoritm vil bruge =(log B) iterationer af possible, hvilket giver køretiden: O(n lg B) Algoritmen virker fordi at hvis vi kan få x øl i hver bar, kan vi også få x' < x øl ved først at få  øl, og så bare kassere øl ved hver bar.
+Denne algoritm vil bruge log B iterationer af possible, hvilket giver køretiden: O(n lg B).\\
+Vores algoritme har Greedy choice property, da den tjekker tjekker om det ceiling((l+h)/2) er løsningen. Hvis dette ikke er korrekt ændres l til m eller h til h-1. Dette virker da hvis possible giver "true" så er m muligt og l=m. hvis ikke det er muligt prøves igen med et h=m-1. Det grådige valg er rigtigt fordi at hvis dette gentages nok vil det mindste tal ende med at være lig det største tal og det vil så være det maksimale tal som det er muligt for barrerne at have.\\
+Problemet går ud på at finde det største mulige tal som alle barrerne kan have af øl. Dette tjekkes ved at bruge possible på et tal, indtil det korrekte tal er fundet. Derfor har problemet en optimal delstruktur.
 
 \end{document}

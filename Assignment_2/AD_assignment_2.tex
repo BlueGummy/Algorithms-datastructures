@@ -36,9 +36,8 @@ $$
 \section{task 2}
 In order to prove the correctness of our formula, for calculating the amount of unique combinations of unique beers you can buy with a specified amount of money, we will show that our formula devides a problem into overlapping sub-problems, and solves those subproblems correctly. 
 First we have to establish the correctness of our base cases.
-To Illustrate this, if the algorithm starts out with $c \leq 0$ or if it starts out with $i = 0$ where $i \in \mathbb{Z}$, the algorithm will return 0. If at some point $c = 0$ occurs and c started out as $0 \leq c$  our algorithm will returns 1. If the same scenario happens but c goes bellow 0, $c < 0$, our algorithm will return 0. If both $c \geq  0$ and and $i > 1$ then our algorithm will make a tree like structure and divide the problem into  overlapping sub-problems. These sub-problems will then be solved by the algorithm in accordance with the base cases.   
-
- 
+To Illustrate this, if the algorithm starts out with $c \leq 0$ or if it starts out with $i = 0$ where $i \in \mathbb{Z}$, the algorithm will return 0. If at some point $c = 0$ occurs and c started out as $0 \leq c$  our algorithm will returns 1. If the same scenario happens but c goes bellow 0, $c < 0$, our algorithm will return 0. 
+If none of the previously mentioned base cases are triggered, then our algorithm runs recursively on $N(c-p_i,i-1)$ and adds those solutions to $N(c,i-1)$. Thereby dividing the problem into sub-problems and afterwards solving those (even if it has to run recursively on those as well). Since it divides the problem into sub-problems, and afterwards find the optimal solution to those, we can say that when combined we achieve the optimal solution for the original problem.
 
 \newpage
 \section{Task 3}
@@ -77,10 +76,11 @@ Bottom-Up-Beers (P,c) =
 14	return R[c][P.length];
 \end{verbatim}
 NOTE: we later figured out how to calculate the running time for the top-down method implementation after talking with a TA, but we decided to keep both of the implementations.
+\newpage
 \section{Task 4}
-For this task we went ahead and analysed the bottom-up implementation, Bottom-Up-Beers. From the nested for-loop in our implementation, first seen at line 2 and then again inside the first for-loop at line 4, we can see that our algorithm first checks through all possible combinations of $k \geq p.lenght$ for some $j \geq c$. From this it is we can see that the upper and lower bound for our running time is $O(cn)$ and $\omega(cn)$. For clarity n is equal to p.length with is the amount of individual beers there are avaliable and c is the amount of money there is to spend. Since our upper and lower bound is $c \cdot n$, our running time is therefore $T(n) = \theta(cn)$.\\
+For this task we went ahead and analysed the bottom-up implementation, Bottom-Up-Beers. Because the nested for-loop in our implementation, first seen at line 2 and then again inside the first for-loop at line 4, we can see that our algorithm first checks through all possible combinations of $k \geq p.lenght$ for some $j \geq c$. From this it is we can see that the upper and lower bound for our running time is $O(cn)$ and $\omega(cn)$. For clarity n is equal to p.length with is the amount of individual beers there are avaliable and c is the amount of money there is to spend. Since our upper and lower bound is $c \cdot n$, our running time is therefore $T(n) = \theta(cn)$.\\
 
-Since our implementation stores every single combination of $c \cdot i$, we can visualize that our implementation stores it's asnwers as a matrix, where the amount of colums and rows of the matrix are determined by the size of "c" and "i". Therefore since our matrix has to be stored for the algorithm to access it our memory usage is ||R|| = cn.\\
+Since our implementation stores every single combination of $c\cdot i$, we can visualize that our implementation stores it's asnwers as a matrix, where the amount of colums and rows of the matrix are determined by the size of "c" and "i". Therefore since our matrix has to be stored for the algorithm to access it our memory usage is ||R|| = cn.\\
 
 We prove the correctness by using the loop invariants:
 \begin{itemize}

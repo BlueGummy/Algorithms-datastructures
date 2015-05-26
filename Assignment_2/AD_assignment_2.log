@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  26 MAY 2015 13:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  26 MAY 2015 14:52
 entering extended mode
 **AD_assignment_2.tex
 
@@ -619,25 +619,25 @@ ignment_2.toc)
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 46.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 45.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (24.83966pt too wide) in paragraph at lines 58--58
+Overfull \hbox (24.83966pt too wide) in paragraph at lines 57--57
 []            \T1/cmtt/m/n/12 MemoizedBeerComp(c - beerList[i], i - 1, beerLis,
  holderMatrix)[] 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -683,12 +683,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[4]
+
 (C:\Users\Thomas\Documents\GitHub\Algorithms-datastructures\Assignment_2\AD_ass
 ignment_2.bbl
 
@@ -719,9 +719,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AD_assignment_2.pdf (5 pages, 139540 bytes).
+Output written on AD_assignment_2.pdf (5 pages, 140540 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

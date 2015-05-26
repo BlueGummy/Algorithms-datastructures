@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} % flere matematikkommandoer
+\usepackage[utf8]{inputenc} % æøå
+\usepackage[T1]{fontenc} % mere æøå
+\usepackage[danish]{babel} % orddeling
+\usepackage{verbatim} % så man kan skrive ren tekst
+\usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{moreverb}
+\usepackage[a4paper, hmargin={2.8cm, 2.8cm}, vmargin={2.5cm, 2.5cm}]{geometry}
+
+
+\title{Algorithms and Datastructures assignment 3}
+\author{Thomas Broby Nielsen (xlq119)\\ Tobias Overgaard (vqg954)\\ Christian Buchter (zvc154)}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+\section{Task 1}
+\begin{verbatim}
+get-kth-key(x,k)
+1 if k < 0 or k > x.max
+2    return NILL
+3 else
+4        if k > x.left.size
+5           get-kth-key(x.right,k-x.left.size)
+6        if k < x.left.size
+7           get-kth-key(x.left,k)
+8        if k = x.left.size
+9           return x+1
+\end{verbatim}
+
+\newpage
+\section{task 2}
+
+\newpage
+
+\end{document}

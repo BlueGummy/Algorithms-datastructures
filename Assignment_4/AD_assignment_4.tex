@@ -39,6 +39,20 @@ get-kth-key(x,k)
 
 \newpage
 \section{task 2}
+\begin{verbatim}
+sized-Left-Rotate(T,x)
+1 y=x.right
+2 x.right=y.right
+3 if y.right=! T.nil
+4    y.right.p=x
+5 x.right.left=y.left
+6 if y.left=! T.nil
+7 y.left.p=x.right
+________
+everything from here on is normal.
+\end{verbatim}
+
+
 
 \newpage
 

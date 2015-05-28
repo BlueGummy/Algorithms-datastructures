@@ -34,7 +34,7 @@ get-kth-key(x,k)
 6        if k < x.left.size
 7           get-kth-key(x.left,k)
 8        if k = x.left.size
-9           return x+1
+9           return  x.left.size+1
 \end{verbatim}
 
 \newpage
@@ -73,7 +73,7 @@ everything rom here on is normal.
 
 \section{Task 5}
 RB\_insert Da ændringerne på algortimen ikke påvirker køretiden er køretiden stadig O(lg n).\\
-delete
+Query/get-kth-key kører i O(lg n) tid, da den går et trin ned i træet hver gang den bliver kaldt. Der er lg n niveauer.
 
 
 \end{document}

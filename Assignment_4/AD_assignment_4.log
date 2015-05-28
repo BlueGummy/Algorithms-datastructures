@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.17)  27 MAY 2015 14:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.17)  28 MAY 2015 16:20
 entering extended mode
 **C:/Users/Tobias/Documents/GitHub/Algorithms-datastructures/Assignment_4/AD_as
 signment_4.tex
@@ -624,13 +624,14 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 27.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [2] [3]
+) [2] [3] [4]
+[5]
 (C:\Users\Tobias\Documents\GitHub\Algorithms-datastructures\Assignment_4\AD_ass
 ignment_4.aux) ) 
 Here is how much of TeX's memory you used:
  6139 strings out of 493921
  76631 string characters out of 3144872
- 183018 words of memory out of 3000000
+ 184018 words of memory out of 3000000
  9299 multiletter control sequences out of 15000+200000
  17271 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -643,9 +644,9 @@ l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Tobias\A
 ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Use
 rs\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.
 pk>
-Output written on AD_assignment_4.pdf (3 pages, 48633 bytes).
+Output written on AD_assignment_4.pdf (5 pages, 65504 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

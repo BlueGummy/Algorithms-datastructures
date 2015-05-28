@@ -38,7 +38,7 @@ get-kth-key(x,k)
 \end{verbatim}
 
 \newpage
-\section{task 2}
+\section{task 3}
 \begin{verbatim}
 sized-Left-Rotate(T,x)
 1 y=x.right
@@ -51,9 +51,28 @@ sized-Left-Rotate(T,x)
 ________
 everything from here on is normal.
 \end{verbatim}
-
-
-
+This way the size of x will not change when rotated.
 \newpage
+
+\section{Task 4}
+\begin{verbatim}
+RB-INSERT(T, z)
+1 y = T.nil
+2 x= T.root
+3 while x=! T.nil
+4         y = x
+5         if z.key < x.key
+6            x.size=x.size+1
+7            x=x.left
+8         else x.size=x.size+1
+9                x=x.right
+_______
+everything rom here on is normal.
+\end{verbatim}
+\newpage
+
+\section{Task 5}
+Da ændringerne på algortimen ikke påvirker køretiden er køretiden stadig O(lg n)
+
 
 \end{document}

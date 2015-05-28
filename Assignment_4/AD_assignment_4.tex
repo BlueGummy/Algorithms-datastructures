@@ -41,13 +41,13 @@ get-kth-key(x,k)
 \section{task 3}
 \begin{verbatim}
 sized-Left-Rotate(T,x)
-1 y=x.right
-2 x.right=y.right
-3 if y.right=! T.nil
-4    y.right.p=x
-5 x.right.left=y.left
-6 if y.left=! T.nil
-7 y.left.p=x.right
+1 y = x.right
+2 x.right = y.right
+3 if y.right =! T.nil
+4    y.right.p = x
+5 x.right.left = y.left
+6 if y.left =! T.nil
+7    y.left.p = x.right
 ________
 everything from here on is normal.
 \end{verbatim}
@@ -58,23 +58,25 @@ This way the size of x will not change when rotated.
 \begin{verbatim}
 RB-INSERT(T, z)
 1 y = T.nil
-2 x= T.root
-3 while x=! T.nil
+2 x = T.root
+3 while x =! T.nil
 4         y = x
 5         if z.key < x.key
-6            x.size=x.size+1
-7            x=x.left
-8         else x.size=x.size+1
-9                x=x.right
+6            x.size = x.size + 1
+7            x = x.left
+8         else x.size = x.size + 1
+9              x = x.right
 _______
-everything rom here on is normal.
+everything from here on is normal.
 \end{verbatim}
+\footnote{Se side 315 på "RB-Insert(T,z)" pseudo code}
 \newpage
 
 \section{Task 5}
-RB\_insert Da ændringerne på algortimen ikke påvirker køretiden er køretiden stadig O(lg n).\\
-RB\_delete stadig i same tid, da ændringerne her ville kunne implementeres så de ikke påvirkede køretiden, men at den bare ændrede size når den aligevel var i noden.\\
-Query/get-kth-key kører i O(lg n) tid, da den går et trin ned i træet hver gang den bliver kaldt. Der er lg n niveauer.
+Siden at vi kun har tilført to linjer kode, til den originale RB-INSERT, som arbejder i konstant tid, på linje 6 med indførelsen af "$x.size = x.size + 1$" og igen på linje 8 med $x.size = x.size + 1$, vil det ikke påvirke algoritmens originale køretid på O(lg n), som står skrevet i bogen\footnote{se side 322 "Analysis"}.
+\\
+Ændringerne som vi har lavet til den originale version af RB\_delete, ændrer ikke køretiden. Dette er fordi at vores ændringerne kun ændrer size når den aligevel var i noden.\\
+Query/get-kth-key kører i O(lg n) tid, da den går et trin ned i træet hver gang den bliver kaldt. Der er $lg(n)$ niveauer.
 
 
 \end{document}

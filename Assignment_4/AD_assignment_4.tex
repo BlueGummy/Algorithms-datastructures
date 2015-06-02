@@ -23,22 +23,22 @@
 \tableofcontents
 
 \pagebreak
-\section{Task 1}
+\section*{Task 1}
 \begin{verbatim}
 get-kth-key(x,k)
 1 if k < 0 or k > x.max
 2    return NILL
 3 else
-4        if k > x.left.size
-5           get-kth-key(x.right,k-x.left.size)
-6        if k < x.left.size
-7           get-kth-key(x.left,k)
-8        if k = x.left.size
-9           return  x.left.size+1
+4        if k > x.left.size+1
+5           return get-kth-key(x.right,k-x.left.size)
+6        else if k < x.left.size
+7           return get-kth-key(x.left,k)
+8        else if k = x.left.size+1
+9           return x.key
 \end{verbatim}
 
 \newpage
-\section{task 3}
+\section*{task 3}
 \begin{verbatim}
 sized-Left-Rotate(T,x)
 1 y = x.right
@@ -54,29 +54,34 @@ everything from here on is normal.
 This way the size of x will not change when rotated.
 \newpage
 
-\section{Task 4}
+\section*{Task 4}
 \begin{verbatim}
 RB-INSERT(T, z)
 1 y = T.nil
 2 x = T.root
 3 while x =! T.nil
 4         y = x
+6         x.size = x.size + 1
 5         if z.key < x.key
-6            x.size = x.size + 1
 7            x = x.left
-8         else x.size = x.size + 1
-9              x = x.right
-_______
+8         else x = x.right
+...
+17 z.color = RED
+18 z.size=1
+---------
 everything from here on is normal.
 \end{verbatim}
 \footnote{Se side 315 på "RB-Insert(T,z)" pseudo code}
 \newpage
 
-\section{Task 5}
+\section*{Task 5}
 Siden at vi kun har tilført to linjer kode, til den originale RB-INSERT, som arbejder i konstant tid, på linje 6 med indførelsen af "$x.size = x.size + 1$" og igen på linje 8 med $x.size = x.size + 1$, vil det ikke påvirke algoritmens originale køretid på O(lg n), som står skrevet i bogen\footnote{se side 322 "Analysis"}.
 \\
 Ændringerne som vi har lavet til den originale version af RB\_delete, ændrer ikke køretiden. Dette er fordi at vores ændringerne kun ændrer size når den aligevel var i noden.\\
-Query/get-kth-key kører i O(lg n) tid, da den går et trin ned i træet hver gang den bliver kaldt. Der er $lg(n)$ niveauer.
+Query/get-kth-key kører i O(lg n) tid, da den går et trin ned i træet hver gang den bliver kaldt. Der er $lg(n)$ niveauer. Der er lg(n) niveauer fordi at for er skal bruges 2*det sidste niveaus knuder for alt fylde et nyt niveau ud. Deri lg(n) niveauer for n knuder.
 
+\section*{Task 6}
+siden insert tager O(lg n) tid og siden delete tager O(lg n) tid og query tager O(lg n) så tager en arbitrær sekvens af disse 3 funktionskald i værste tilfælde \\
+O(y lg n + z lg n + x lg n)
 
 \end{document}

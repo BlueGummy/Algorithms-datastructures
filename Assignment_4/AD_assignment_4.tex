@@ -38,6 +38,17 @@ get-kth-key(x,k)
 \end{verbatim}
 
 \newpage
+\section{task 2}
+base cases:
+size=0\\
+size=1\\
+hypotese: hvis x.size=i, så gælder koden virker for alle sizes < i\\\\
+cases:\\
+hvis k > x.left.size+1. Så bliver k mindre og size bliver mindre. k=k-x.left.size og x=x.right\\
+hvis k < x.left.size. Så forbliver k den samme værdi, og size bliver mindre. x=x.left\\
+hvis k = x.left.size+1. Så returneres x.key og algortimen er færdig.\\
+Fordi at size altid bliver mindre, medmindre algoritmen er færdig, og da vores hypotese siger at algoritmen virker for alle sizes < i virker algoritmen.
+\newpage
 \section*{task 3}
 \begin{verbatim}
 sized-Left-Rotate(T,x)

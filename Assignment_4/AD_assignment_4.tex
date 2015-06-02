@@ -38,7 +38,7 @@ get-kth-key(x,k)
 \end{verbatim}
 
 \newpage
-\section{task 2}
+\section*{task 2}
 base cases:
 size=0\\
 size=1\\
@@ -52,15 +52,12 @@ Fordi at size altid bliver mindre, medmindre algoritmen er færdig, og da vores 
 \section*{task 3}
 \begin{verbatim}
 sized-Left-Rotate(T,x)
-1 y = x.right
-2 x.right = y.right
-3 if y.right =! T.nil
-4    y.right.p = x
-5 x.right.left = y.left
-6 if y.left =! T.nil
-7    y.left.p = x.right
-________
-everything from here on is normal.
+1 y.size=x.size
+...
+14 x.size=x.right.size+x.left.size+1
+------
+everything inbetweeen is normal.
+
 \end{verbatim}
 This way the size of x will not change when rotated.
 \newpage

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.17)  2 JUN 2015 16:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.17)  2 JUN 2015 16:55
 entering extended mode
 **C:/Users/Tobias/Documents/GitHub/Algorithms-datastructures/Assignment_4/AD_as
 signment_4.tex
@@ -633,11 +633,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--51
 (C:\Users\Tobias\Documents\GitHub\Algorithms-datastructures\Assignment_4\AD_ass
 ignment_4.aux) ) 
 Here is how much of TeX's memory you used:
- 6159 strings out of 493921
- 76868 string characters out of 3144872
+ 6157 strings out of 493921
+ 76846 string characters out of 3144872
  184018 words of memory out of 3000000
- 9314 multiletter control sequences out of 15000+200000
- 20211 words of font info for 65 fonts, out of 3000000 for 9000
+ 9313 multiletter control sequences out of 15000+200000
+ 19435 words of font info for 64 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,43p,3318b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
@@ -646,16 +646,15 @@ ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Tobias\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Tobias\AppData\Loca
 l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Tobias\A
 ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Use
-rs\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
+rs\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.
 pk> <C:\Users\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx1728.pk> <C:\Users\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecrm1440.pk> <C:\Users\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\jknappen\ec\dpi600\ecrm2074.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb>
-Output written on AD_assignment_4.pdf (6 pages, 107069 bytes).
+0\ecrm1440.pk> <C:\Users\Tobias\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecrm2074.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb>
+Output written on AD_assignment_4.pdf (6 pages, 103732 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
+ 282 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

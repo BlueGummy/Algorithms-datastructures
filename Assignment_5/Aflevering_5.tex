@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} % flere matematikkommandoer
+\usepackage[utf8]{inputenc} % æøå
+\usepackage[T1]{fontenc} % mere æøå
+\usepackage[danish]{babel} % orddeling
+\usepackage{verbatim} % så man kan skrive ren tekst
+\usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{moreverb}
+\usepackage[a4paper, hmargin={2.8cm, 2.8cm}, vmargin={2.5cm, 2.5cm}]{geometry}
+
+
+\title{Algorithms and Datastructures assignment 5}
+\author{Thomas Broby Nielsen (xlq119)\\ Tobias Overgaard (vqg954)\\ Christian Buchter (zvc154)}
+
+\begin{document}
+\maketitle
+\section*{task 1}
+prove by contradiction:\\
+Vi har en T der består af de korteste veje mellem hver frabrik. Det er et minimalt træ der udspænder frabrikkere. hvis $H_{i,j}$ er den kant i H som har mindste værdi. Denne kant er ikke en del af T. Da den er en kant af minimal værdi betyder det at vi kan udskifte kanten med den $H_{i,j}*$ som er en del af T uden af T bliver større. T bliver tvært imod mindre da  $H_{i,j}*$ > $H_{i,j}$. Dette er en modstrid da T er et minimalt træ. Derfor må en minimal $H_{i,j}$ altid være en kant i T.
+
+\newpage
+\section*{task 2}
+Hvis man følger fremgangsmåden fra Kruskals algoritme kan det hurtigt ses at T'=T. Det er fordi at Kruskals algoritme starter fra den lavest længde kant, hvorefter den tilføjer den til træet hvis den ikke ødelægger træets struktur (laver en løkke). I opgaven før beviste vi at den korteste kant fra i til j er en del af træet. Siden Da dette altiv vil tilføje den mindste kant, og aldrig vil ødelægge træets struktur vil det altid skabe et minimalt træ. Udføres Kruskals  algoritme på det ovenstående eksempel vil algoritme gøre følgende:
+\begin{itemize}
+\item Algortimen starter fra 1, og tilføjer kanten med længde 1.
+\item Algoritmen checker efter kanter med længde 2. Da der er sådan en kant der ikke skaber et loop tilføjes denne kant til træet.
+\item Algoritmen checker efter kanter med længde 3. Der er sådan en kan,t men det ville skabe et loop at tilføje den til træet. Derfor tilføjes kanten ikke.
+\item Dette fortsættes til og med kanten af længe 8 er blevet gennemgået.
+\item Det resulterende træ T'=T
+\end{itemize}
+Ud fra dette er det bevidst at et minimalt træ T' fra G(H)=T.
+\newpage
+\section*{task 3}
+
+
+
+\end{document}
